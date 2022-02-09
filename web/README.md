@@ -7,9 +7,8 @@ don't have to leave it to find and open the weblink you want.
 ## Installation
 0. Clone this repository first
 1. `cd web`
-2. `pip3 install requirements.txt`
-3. Next, I recommend you move the file to your home directory so that you can shorten the path to the file and run it quickly.
-4. Specify links and their names in the file dictionary.
+2. Next, I recommend you move the file to your home directory so that you can shorten the path to the file and run it quickly.
+3. Specify links and their names in the file dictionary.
 If all went well, you can run the file.
 
 ### Run 🚀
