@@ -14,7 +14,7 @@ If all went well, you can run the file.
 #### Translation of words separately 
 `python3 translate.py lang_from lang_to word1 word2 word3`
 
-lang_from – the language from which you want to translate (ex. ru, en, es, de, etc.)
+lang_from – the language from which you want to translate (ex. ru, en, es, de, etc.)  
 lang_to – the language you want to translate into (ex. ru, en, es, de, etc.)
 
 #### Translation of the entire sentence
