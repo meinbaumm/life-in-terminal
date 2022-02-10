@@ -12,7 +12,7 @@ don't have to leave it to find and open the weblink you want.
 If all went well, you can run the file.
 
 ### Run 🚀
-`python3 web.py app1 app2 app3`
+`python3 web.py link1 link2 link`
 
 If you write `python3 web.py showall` the script will show you all the urls you have entered in alphabetical order.
 It makes it easier not to forget anything.
