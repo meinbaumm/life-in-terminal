@@ -37,8 +37,11 @@ def open_apps(args, apps_dict):
         if argument == "showall":
             _show_aveilable_apps(apps_dict)
             continue
-        path = apps_dict[argument]
-        os.system(f"open {path}")
+        try:
+            path = apps_dict[argument]
+            os.system(f"open {path}")
+        except KeyError:
+            print(f"{argument} not found in available apps")
 
 
 def _show_aveilable_apps(apps_dict):

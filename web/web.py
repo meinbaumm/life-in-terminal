@@ -42,8 +42,11 @@ def open_sites(args, sites_dict):
         if argument == "showall":
             _show_aveilable_sites(sites_dict)
             continue
-        url = sites_dict[argument]
-        webbrowser.open(url, new=0)
+        try:
+            url = sites_dict[argument]
+            webbrowser.open(url, new=0)
+        except KeyError:
+            print(f"{argument} not found in available sites")
 
 
 if __name__ == "__main__":
